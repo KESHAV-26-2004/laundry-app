@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1099153706156</string>
+    <string name="google_api_key" translatable="false">AIzaSyCCFWBA2dFhcnCgUJiSwG65Ujg4B-QZN5o</string>
+    <string name="google_app_id" translatable="false">1:1099153706156:android:9e02d6382305eb82b46309</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCCFWBA2dFhcnCgUJiSwG65Ujg4B-QZN5o</string>
+    <string name="google_storage_bucket" translatable="false">laundary-40675.firebasestorage.app</string>
+    <string name="project_id" translatable="false">laundary-40675</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
