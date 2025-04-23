@@ -7,17 +7,54 @@ import 'trackorder.dart'; // Import TrackOrderPage
 import 'dryclean.dart'; // Import DryCleanPage
 import 'payment.dart'; // Import PaymentsPage
 import 'history.dart'; // Import OrderHistoryPage
+import 'package:laundary/ai_button.dart';
 
-class StudentScaffold extends StatelessWidget {
+class StudentScaffold extends StatefulWidget {
   final AppBar? appBar;
   final Widget body;
+  final String? title;
 
-  const StudentScaffold({super.key, this.appBar, required this.body});
+  const StudentScaffold({super.key, this.appBar, this.title, required this.body});
+
+  @override
+  State<StudentScaffold> createState() => _StudentScaffoldState();
+}
+
+class _StudentScaffoldState extends State<StudentScaffold> {
+  bool showTooltip = false;
+  bool showCanvasMenu = false;
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appBar,
+      appBar: widget.appBar ??
+          AppBar(
+            title: Text(widget.title ?? 'Laundry App'),
+            backgroundColor: Colors.deepPurpleAccent,
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.help),color: Colors.black,
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text("How can we help you?")),
+                  );
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.notifications),color: Colors.black,
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text("No new notifications")),
+                  );
+                },
+              ),
+            ],
+          ),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -66,8 +103,7 @@ class StudentScaffold extends StatelessWidget {
                 onTap: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const PlaceOrderPage()),
+                    MaterialPageRoute(builder: (context) => const PlaceOrderPage()),
                   );
                 },
               ),
@@ -79,8 +115,7 @@ class StudentScaffold extends StatelessWidget {
                 onTap: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const TrackOrderPage()),
+                    MaterialPageRoute(builder: (context) => const TrackOrderPage()),
                   );
                 },
               ),
@@ -92,8 +127,7 @@ class StudentScaffold extends StatelessWidget {
                 onTap: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const DryCleanPage()),
+                    MaterialPageRoute(builder: (context) => const DryCleanPage()),
                   );
                 },
               ),
@@ -105,8 +139,7 @@ class StudentScaffold extends StatelessWidget {
                 onTap: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const PaymentsPage()),
+                    MaterialPageRoute(builder: (context) => const PaymentsPage()),
                   );
                 },
               ),
@@ -118,8 +151,7 @@ class StudentScaffold extends StatelessWidget {
                 onTap: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const OrderHistoryPage()),
+                    MaterialPageRoute(builder: (context) => const OrderHistoryPage()),
                   );
                 },
               ),
@@ -141,36 +173,11 @@ class StudentScaffold extends StatelessWidget {
           ],
         ),
       ),
-      body: body,
-    );
-  }
-}
-
-class StudentDashboard extends StatelessWidget {
-  const StudentDashboard({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return StudentScaffold(
-      appBar: AppBar(
-        title: const Text("Student Dashboard"),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.help),
-            onPressed: () {
-              // TODO: Implement Help functionality
-            },
-          ),
-          IconButton(
-            icon: const Icon(Icons.notifications),
-            onPressed: () {
-              // TODO: Implement Notification functionality
-            },
-          ),
+      body: Stack(
+        children: [
+          widget.body,
+          const FloatingBotButton(),  // 👈 Always overlays in bottom right
         ],
-      ),
-      body: const Center(
-        child: Text("Welcome Student!"),
       ),
     );
   }

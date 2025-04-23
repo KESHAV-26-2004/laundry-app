@@ -1,7 +1,20 @@
 # This is a generated file; do not edit or check into version control.
-cloud_firestore=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore-5.6.4\\
-cloud_firestore_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore_web-4.4.4\\
+cloud_firestore=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore-5.6.6\\
+cloud_firestore_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore_web-4.4.6\\
+file_selector_linux=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\file_selector_linux-0.9.3+2\\
+file_selector_macos=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\file_selector_macos-0.9.4+2\\
+file_selector_windows=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\file_selector_windows-0.9.3+4\\
 firebase_auth=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_auth-5.5.0\\
 firebase_auth_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_auth_web-5.14.0\\
-firebase_core=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_core-3.12.0\\
-firebase_core_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_core_web-2.21.0\\
+firebase_core=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_core-3.13.0\\
+firebase_core_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_core_web-2.22.0\\
+firebase_storage=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_storage-12.4.5\\
+firebase_storage_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_storage_web-3.10.12\\
+flutter_plugin_android_lifecycle=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_plugin_android_lifecycle-2.0.27\\
+image_picker=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker-1.1.2\\
+image_picker_android=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker_android-0.8.12+22\\
+image_picker_for_web=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker_for_web-3.0.6\\
+image_picker_ios=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker_ios-0.8.12+2\\
+image_picker_linux=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker_linux-0.2.1+2\\
+image_picker_macos=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker_macos-0.2.1+2\\
+image_picker_windows=C:\\Users\\keshu\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\image_picker_windows-0.2.1+1\\

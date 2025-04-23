@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.deepPurpleAccent,
         title: const Text('L.A.U.N.D.R.Y',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 24),),
       ),
       body:

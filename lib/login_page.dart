@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:laundary/student/profile.dart';
-import 'staff_dash.dart';
+import 'staff/staff_dash.dart';
 import 'admin_dash.dart';
 
 class LoginPage extends StatefulWidget {
@@ -183,7 +183,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.deepPurpleAccent,
         title: const Text('Login Page'),
       ),
       body: SingleChildScrollView(

@@ -15,10 +15,9 @@ list(APPEND FLUTTER_TOOL_ENVIRONMENT
   "FLUTTER_ROOT=C:\\src\\flutter"
   "FLUTTER_EPHEMERAL_DIR=K:\\FLUTTER\\laundary\\windows\\flutter\\ephemeral"
   "PROJECT_DIR=K:\\FLUTTER\\laundary"
-  "FLUTTER_TARGET=K:\\FLUTTER\\laundary\\lib\\main.dart"
-  "DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl"
+  "FLUTTER_TARGET=lib\\main.dart"
   "DART_OBFUSCATION=false"
   "TRACK_WIDGET_CREATION=true"
-  "TREE_SHAKE_ICONS=false"
+  "TREE_SHAKE_ICONS=true"
   "PACKAGE_CONFIG=K:\\FLUTTER\\laundary\\.dart_tool\\package_config.json"
 )
