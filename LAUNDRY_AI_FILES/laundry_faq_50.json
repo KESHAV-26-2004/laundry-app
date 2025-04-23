@@ -1,0 +1,194 @@
+[
+  {
+    "question": "How do I place a laundry order?",
+    "answer": "Open the app, log in as a student, go to 'New Order', and select the type and quantity of clothes."
+  },
+  {
+    "question": "Where can I see my order history?",
+    "answer": "Tap on the 'Order History' section in the bottom navigation bar after logging in."
+  },
+  {
+    "question": "Can I schedule my laundry pickup in advance?",
+    "answer": "Yes, you can choose a future date and time while placing your order."
+  },
+  {
+    "question": "How do I know when my clothes are ready?",
+    "answer": "You\u2019ll receive a push notification once your laundry is completed and ready for pickup."
+  },
+  {
+    "question": "What payment methods are supported?",
+    "answer": "You can pay using UPI, credit/debit cards, or cash on delivery."
+  },
+  {
+    "question": "Is dry cleaning available?",
+    "answer": "Yes, select 'Dry Cleaning' when choosing your clothing type in the order form."
+  },
+  {
+    "question": "How do I report a missing item?",
+    "answer": "Go to the 'Help & Feedback' section and file a report under 'Lost & Found'."
+  },
+  {
+    "question": "What if I receive someone else's clothes?",
+    "answer": "Report the issue in the app using the 'Help & Feedback' option, and we will resolve it quickly."
+  },
+  {
+    "question": "How do I cancel an order?",
+    "answer": "Navigate to 'Order History', select the order, and tap on 'Cancel Order'."
+  },
+  {
+    "question": "Are express services available?",
+    "answer": "Yes, select 'Express Delivery' during your order for quicker processing."
+  },
+  {
+    "question": "Can I change my pickup address?",
+    "answer": "Yes, go to 'Account Settings' and update your address before placing a new order."
+  },
+  {
+    "question": "What happens if my laundry is delayed?",
+    "answer": "We notify you through the app in case of delays due to high demand or holidays."
+  },
+  {
+    "question": "How long does laundry processing usually take?",
+    "answer": "Normal laundry takes about 24-48 hours. Express orders are done within 12 hours."
+  },
+  {
+    "question": "Can I add ironing to my order?",
+    "answer": "Yes, choose the ironing option while selecting clothing types."
+  },
+  {
+    "question": "What are the laundry service hours?",
+    "answer": "Our laundry operates from 8 AM to 8 PM, Monday through Saturday."
+  },
+  {
+    "question": "How do I know if the laundry is open?",
+    "answer": "The app shows real-time service availability on the home screen."
+  },
+  {
+    "question": "What to do if app crashes while placing order?",
+    "answer": "Reopen the app and check 'Order History'. If order isn't listed, try placing it again."
+  },
+  {
+    "question": "Can I place orders from multiple hostels?",
+    "answer": "No, each account is tied to one hostel. Update your address in settings if needed."
+  },
+  {
+    "question": "What if I paid but the order didn\u2019t go through?",
+    "answer": "Go to 'Help & Feedback' and provide your transaction ID. Our team will assist you."
+  },
+  {
+    "question": "Can I track my laundry process?",
+    "answer": "Yes, each order shows live status: picked, washing, ironing, or ready."
+  },
+  {
+    "question": "What types of clothes are accepted?",
+    "answer": "We accept shirts, trousers, t-shirts, jeans, bedsheets, woolens, and delicates."
+  },
+  {
+    "question": "How do I leave a review or rating?",
+    "answer": "Use the 'Feedback' tab after your order is completed."
+  },
+  {
+    "question": "What if I forget to pick up my laundry?",
+    "answer": "We\u2019ll send you 2 reminders. If unclaimed for 7 days, it moves to lost & found."
+  },
+  {
+    "question": "Can staff update the price list?",
+    "answer": "Yes, laundry staff can modify the price list from their dashboard interface."
+  },
+  {
+    "question": "Are there separate logins for staff and students?",
+    "answer": "Yes, students and staff have separate login screens and permissions."
+  },
+  {
+    "question": "How do staff view pending orders?",
+    "answer": "Staff dashboard shows all new and pending orders with time and student details."
+  },
+  {
+    "question": "Can I order only ironing without washing?",
+    "answer": "Yes, choose 'Ironing Only' while selecting clothes during order."
+  },
+  {
+    "question": "Do I need to label my clothes?",
+    "answer": "No, each order is tagged with a QR code and student ID for tracking."
+  },
+  {
+    "question": "What if my clothes shrink?",
+    "answer": "Report via 'Help & Feedback'; if proven, compensation may be provided."
+  },
+  {
+    "question": "Is detergent choice available?",
+    "answer": "We use standard eco-friendly detergent; special requests can be added as notes."
+  },
+  {
+    "question": "Do I get a receipt for payment?",
+    "answer": "Yes, digital receipts are stored under 'Payment History' in your profile."
+  },
+  {
+    "question": "How do I contact support directly?",
+    "answer": "Use the 'Help' section to live chat or raise a complaint ticket."
+  },
+  {
+    "question": "Are bulk discounts available?",
+    "answer": "Yes, discounts apply for 20+ items. Check offers tab for current deals."
+  },
+  {
+    "question": "Can I upload custom washing instructions?",
+    "answer": "Yes, you can add notes or special instructions per item in the order."
+  },
+  {
+    "question": "Can I see order summary before payment?",
+    "answer": "Yes, you\u2019ll see a breakdown before confirming and making the payment."
+  },
+  {
+    "question": "How do I update my email or phone?",
+    "answer": "Go to 'Account Settings' and edit your profile information."
+  },
+  {
+    "question": "How do staff notify students when clothes are ready?",
+    "answer": "Staff just update status; the system sends automated push notifications."
+  },
+  {
+    "question": "What if I don't have internet at pickup?",
+    "answer": "You can still show your last received notification or student ID manually."
+  },
+  {
+    "question": "Are there gender-specific laundry counters?",
+    "answer": "No, laundry collection is handled uniformly for all students."
+  },
+  {
+    "question": "What should I do if I selected wrong clothes in order?",
+    "answer": "Cancel and reorder, or notify staff via app chat if it\u2019s already picked."
+  },
+  {
+    "question": "How can I delete my account?",
+    "answer": "Contact support via email or in-app ticket to request account deletion."
+  },
+  {
+    "question": "Can I check laundry charges before placing an order?",
+    "answer": "Yes, tap on 'Price List' from the home screen."
+  },
+  {
+    "question": "What should I do in case of app login failure?",
+    "answer": "Check credentials. If issue persists, reset your password or contact support."
+  },
+  {
+    "question": "Is there a referral program?",
+    "answer": "Yes, refer friends and earn discounts. Check 'Refer & Earn' in profile."
+  },
+  {
+    "question": "Do you provide laundry bags?",
+    "answer": "Yes, bags are provided at pickup if selected in order options."
+  },
+  {
+    "question": "How can I change my password?",
+    "answer": "Click on 'Forgot Password' at login or reset from your profile."
+  },
+  {
+    "question": "Can I split one order into multiple deliveries?",
+    "answer": "No, orders are processed as one unit. Place separate orders if needed."
+  },
+  {
+    "question": "Do you support hostel staff laundry?",
+    "answer": "Yes, staff members can use a separate panel to manage and place orders."
+  }
+]
