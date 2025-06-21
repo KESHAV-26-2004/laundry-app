@@ -1,0 +1,54 @@
+# ✅ Firebase Sensitive Files
+firebase.json
+.firebaserc
+.firebase/
+serviceAccountKey.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# ✅ NodeJS
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
+coverage/
+.nyc_output
+logs/
+*.log
+
+# ✅ Flutter / Dart
+.dart_tool/
+.packages
+build/
+.idea/
+.android/
+android/.gradle/
+pubspec.lock
+*.iml
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# ✅ Environment Files
+.env
+.env.*
+*.pid
+*.seed
+*.pid.lock
+
+# ✅ Misc Generated Files
+lib-cov/
+bower_components/
+.lock-wscript
+build/Release/
+.dataconnect/
+.yarn-integrity
+.eslintcache
+.node_repl_history
+
+# ✅ Custom Project Files
+important/
+setRole.js
