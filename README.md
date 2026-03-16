@@ -139,9 +139,9 @@ In a real deployment, users would be **added and managed by the administrator**.
 # 🖼 Application Screenshots
 
 <p align="center">
-<img src="demo/Screenshot_20250418_151715.jpg" width="250">
-<img src="demo/Screenshot_20250418_151723.jpg" width="250">
-<img src="demo/Screenshot_20250418_155255.jpg" width="250">
+<img src="demo/login.png" width="260">
+<img src="demo/profile.png" width="260">
+<img src="demo/dryclean.png" width="260">
 </p>
 
 ---
