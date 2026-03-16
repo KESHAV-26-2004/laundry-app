@@ -1,12 +1,14 @@
-# ✅ Firebase Sensitive Files
-firebase.json
-.firebaserc
+# ==============================
+# Firebase Sensitive Files
+# ==============================
 .firebase/
 serviceAccountKey.json
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 
-# ✅ NodeJS
+# ==============================
+# NodeJS
+# ==============================
 node_modules/
 package-lock.json
 npm-debug.log*
@@ -19,36 +21,42 @@ coverage/
 logs/
 *.log
 
-# ✅ Flutter / Dart
+# ==============================
+# Flutter / Dart
+# ==============================
 .dart_tool/
 .packages
 build/
 .idea/
 .android/
 android/.gradle/
-pubspec.lock
 *.iml
 .flutter-plugins
 .flutter-plugins-dependencies
 .metadata
 
-# ✅ Environment Files
+# ==============================
+# Environment Files
+# ==============================
 .env
 .env.*
 *.pid
 *.seed
 *.pid.lock
 
-# ✅ Misc Generated Files
+# ==============================
+# Misc Generated Files
+# ==============================
 lib-cov/
 bower_components/
 .lock-wscript
-build/Release/
 .dataconnect/
 .yarn-integrity
 .eslintcache
 .node_repl_history
 
-# ✅ Custom Project Files
+# ==============================
+# Custom Project Files
+# ==============================
 important/
 setRole.js

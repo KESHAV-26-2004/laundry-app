@@ -1,0 +1,2 @@
+K:/FLUTTER/laundary/android/app/.cxx/Debug/6r1w223u/x86/CMakeFiles/edit_cache.dir
+K:/FLUTTER/laundary/android/app/.cxx/Debug/6r1w223u/x86/CMakeFiles/rebuild_cache.dir

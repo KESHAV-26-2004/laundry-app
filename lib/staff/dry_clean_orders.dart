@@ -109,7 +109,7 @@ class _DryCleanOrdersPageState extends State<DryCleanOrdersPage> {
                 final String enrollment = data['enrollment'] ?? 'Unknown';
                 final String status = data['status'] ?? 'Unknown';
                 final int itemCount = data['totalQty'] ?? 0;
-                final double totalAmount = data['totalAmount'] ?? 0;
+                final double totalAmount = (data['totalAmount'] as num?)?.toDouble() ?? 0.0;
                 final String paymentStatus =
                     data['payment_status'] ?? 'Unknown';
 

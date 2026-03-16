@@ -56,7 +56,6 @@ class _LoginPageState extends State<LoginPage> {
 
     setState(() {
       _isError = true;
-      _usernameController.clear();
       _passwordController.clear();
       _isLoading = false;
     });
@@ -66,8 +65,8 @@ class _LoginPageState extends State<LoginPage> {
       case 'user-not-found':
         errorMessage = 'No user found for that email.';
         break;
-      case 'wrong-password':
-        errorMessage = 'Wrong password provided for that user.';
+      case 'invalid-credential':
+        errorMessage = 'Invalid email or password.';
         break;
       case 'invalid-email':
         errorMessage = 'The email address is badly formatted.';
